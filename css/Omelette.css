@@ -1,38 +1,38 @@
 @font-face{
   font-family: Omelette1;
-  src : url(../html/pagecopy/fonts/outfit/static/Outfit-Black.ttf)
+  src : url(../html/Omelette/fonts/outfit/static/Outfit-Black.ttf)
 }
 @font-face{
   font-family: Omelette2;
-  src : url(../html/pagecopy/fonts/outfit/static/Outfit-Bold.ttf)
+  src : url(../html/Omelette/fonts/outfit/static/Outfit-Bold.ttf)
 }
 @font-face{
   font-family: Omelette3;
-  src : url(../html/pagecopy/fonts/outfit/static/Outfit-ExtraBold.ttf)
+  src : url(../html/Omelette/fonts/outfit/static/Outfit-ExtraBold.ttf)
 }
 @font-face{
   font-family: Omelette4;
-  src : url(../html/pagecopy/fonts/outfit/static/Outfit-ExtraLight.ttf)
+  src : url(../html/Omelette/fonts/outfit/static/Outfit-ExtraLight.ttf)
 }
 @font-face{
   font-family: Omelette5;
-  src : url(../html/pagecopy/fonts/outfit/static/Outfit-Light.ttf)
+  src : url(../html/Omelette/fonts/outfit/static/Outfit-Light.ttf)
 }
 @font-face{
   font-family: Omelette6;
-  src : url(../html/pagecopy/fonts/outfit/static/Outfit-Medium.ttf)
+  src : url(../html/Omelette/fonts/outfit/static/Outfit-Medium.ttf)
 }
 @font-face{
   font-family: Omelette7;
-  src : url(../html/pagecopy/fonts/outfit/static/Outfit-Regular.ttf)
+  src : url(../html/Omelette/fonts/outfit/static/Outfit-Regular.ttf)
 }
 @font-face{
   font-family: Omelette8;
-  src : url(../html/pagecopy/fonts/outfit/static/Outfit-SemiBold.ttf)
+  src : url(../html/Omelette/fonts/outfit/static/Outfit-SemiBold.ttf)
 }
 @font-face{
   font-family: Omelette9;
-  src : url(../html/pagecopy/fonts/outfit/static/Outfit-Thin.ttf)
+  src : url(../html/Omelette/fonts/outfit/static/Outfit-Thin.ttf)
 }
 
 * {
@@ -143,4 +143,44 @@ h2, .ss{
 }
 .list2 > ol > li::marker{
   color: hsl(332, 51%, 32%);
+}
+@media all and (max-width:479px){
+  *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding: 0;
+    margin-left: 13px;
+    background-color: white;
+  }
+  .card{
+    margin-top: -60px;
+    margin-left: 28px;
+  }
+  .title{
+    font-size: 28px;
+    padding: 0 0 10px 30px;
+  }
+  .span1{
+    font-size: 21px;
+    margin-left: 28px;
+  }
+  .warrap{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+  }
+  .incard{
+    /* padding: 0px; */
+    margin: 20px;
+    border-radius: 10px;
+    width: 500px;
+    justify-content: center;
+  }
+
 }
