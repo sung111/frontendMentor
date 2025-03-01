@@ -32,9 +32,10 @@ p{
 
 .card{
   text-align: center;
-  border-radius: 5px;
+  border-radius: 15px;
   background-color: hsl(0, 0%, 12%);
   padding: 50px 20px 30px 20px ;
+  width: 400px;
 }
 span{
   font-size: 13px;
@@ -52,4 +53,9 @@ span{
   margin: 10px;
   border-radius: 5px;
   border-style: none;
+}
+
+.btn:hover{
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
 }
